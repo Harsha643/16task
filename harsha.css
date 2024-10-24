@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+   
+    background-color: white;
+    font-size: 2rem;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+    top: 0px;
+
+}
+
+section{
+   display: flex;
+
+    width: 300px;
+    /* vertical-align: top; */
+    margin: 6px;
+}
+img{
+    width: 100%;
+    
+}
+h3{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 8px 0px;
+    padding: 10px;
+
+    text-align-last: center;
+}
+p{
+    font-size: 24px;
+    text-align: justify;
+    text-align-last: center;
+ 
+}
+main{
+    margin: 00px 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.icon{
+    background-color: white;
+
+}
+.icon:hover{
+    background-color: #ccc;
+}
+.food{
+    background-color: white;
+
+}
+.food:hover{
+    background-color: #ccc;
+}
+.mail{
+    background-color: white;
+
+}
+.mail:hover{
+    background-color: #ccc;
+}
